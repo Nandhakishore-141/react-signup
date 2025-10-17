@@ -32,7 +32,7 @@ const Home = () => {
           className="input"
           required
         />
-        <button type="submit" className="btn">Save</button>
+        <button type="submit" className="btn">Sign up</button>
       </form>
     </div>
   );

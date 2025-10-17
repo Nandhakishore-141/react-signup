@@ -11,10 +11,15 @@ body {
   display: flex;
 }
 
+.nav-links {
+  margin-left: auto; /* pushes links to the right */
+  display: flex;
+}
+
 .nav-link {
   color: white;
   text-decoration: none;
-  margin-right: 20px;
+  margin-left: 20px;
   font-weight: bold;
 }
 

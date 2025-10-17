@@ -7,9 +7,9 @@ const Show = () => {
 
   return (
     <div className="container">
-      <h2>Student Details</h2>
-      <p><strong>Name:</strong> {data.name || "Not set"}</p>
-      <p><strong>Roll No:</strong> {data.rollNo || "Not set"}</p>
+      <h2>About Student</h2>
+      <p><strong>Name:</strong> {data.name}</p>
+      <p><strong>Roll No:</strong> {data.rollNo}</p>
     </div>
   );
 };

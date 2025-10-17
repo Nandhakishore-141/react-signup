@@ -4,10 +4,13 @@ import "./style.css";
 
 const Navbar = () => {
   return (
-    <nav className="navbar">
-      <Link to="/" className="nav-link">Home</Link>
-      <Link to="/show" className="nav-link">Show Data</Link>
-    </nav>
+   <nav className="navbar">
+  <div className="nav-links">
+    <Link to="/show" className="nav-link">About</Link>
+    <Link to="/" className="nav-link">Sign up</Link>
+  </div>
+</nav>
+
   );
 };
 
