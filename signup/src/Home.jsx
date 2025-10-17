@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { useUserData } from "./useUserData.jsx";
 import "./style.css";
+import Show from "./Show.jsx";
 
 const Home = () => {
   const [data, setData] = useUserData();
@@ -16,23 +17,25 @@ const Home = () => {
     <div className="container">
       <h2>Enter Your Details</h2>
       <form onSubmit={handleSubmit} className="form">
+        <lable> UserName:
         <input
           type="text"
-          placeholder="Name"
+          placeholder="User name"
           value={name}
           onChange={(e) => setName(e.target.value)}
           className="input"
           required
-        />
+        /></lable>
+        <label>password : 
         <input
-          type="text"
-          placeholder="Roll No"
+          type="password"
+          placeholder="Password"
           value={rollNo}
           onChange={(e) => setRollNo(e.target.value)}
           className="input"
           required
-        />
-        <button type="submit" className="btn">Sign up</button>
+        /></label>
+        <button type="submit" className="btn" onClick={Show.jsx}>Sign up</button>
       </form>
     </div>
   );

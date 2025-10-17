@@ -8,8 +8,8 @@ const Show = () => {
   return (
     <div className="container">
       <h2>About Student</h2>
-      <p><strong>Name:</strong> {data.name}</p>
-      <p><strong>Roll No:</strong> {data.rollNo}</p>
+      <p><strong>User Name:</strong> {data.name}</p>
+      <p><strong>Password:</strong> {data.rollNo}</p>
     </div>
   );
 };
