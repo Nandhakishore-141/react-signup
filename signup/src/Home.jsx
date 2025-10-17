@@ -10,7 +10,6 @@ const Home = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     setData({ name, rollNo });
-    alert("Data saved!");
   };
 
   return (
